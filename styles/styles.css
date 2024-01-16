@@ -448,7 +448,11 @@ nav{
     max-width: 643px;
     margin: 0 auto;
     margin-bottom: 48px;
+}
 
+.price{
+    font-size: 1rem;
+    font-weight: 800;
 }
 
 
@@ -626,6 +630,26 @@ nav{
 .reviews-container .card{
     text-align: center;
 }
+
+/* DEALS SECTION STYLES */
+
+.deal-1, .deal-2, .deal-3{
+    max-height: 500px;
+    
+}
+
+.deal-content{
+    padding: 25px;
+}
+
+.deals-section{
+    padding: 187px 16px 16px 16px;
+}
+
+
+
+
+
 
 
 }
