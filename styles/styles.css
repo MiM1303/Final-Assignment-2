@@ -187,6 +187,75 @@ nav{
         margin-top: 8px;
     }
 
+  
+    /* DESTINATION SECTION STYLES */
+
+    .destination-container{
+        text-align: center; 
+        margin-bottom: 100px;    
+    }
+
+    .row1 {
+        display: flex;
+        justify-content: space-between;
+      }
+
+    .row2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -12px;
+      }
+
+    .row3{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -16px;
+    }
+
+      .row1 img{
+        max-width:  485px;
+      }
+      
+      .row2 .srilanka img{
+        max-width:  312px;
+      }
+
+      .row2 .north-america img{
+        max-width:  397px;
+      }
+
+      .row2 .kashmir img{
+        max-width:  237px;
+      }      
+
+      .row3 .bangladesh img{
+        max-width: 400px;
+      }
+
+      .row3 .bandarban img{
+        max-width: 570px;
+      }
+
+      .destination-name {
+        margin: 0 0;
+        color: white;
+        text-align: center;
+        font-size: 1.75rem;
+        font-weight: 800;
+        position: relative;
+        bottom: 50%;
+    }
+  
+    .destination-container p{
+        max-width: 643px;
+        margin: 0 auto;
+        /* margin-bottom: 48px; */
+    }
+
+    .destination-container .destination-text{
+        margin-bottom: 48px;
+    }
+
 
     
 
@@ -289,7 +358,54 @@ nav{
     max-width: 100%;
 }
 
-/* .popular-image img{
-  width: 107%;
-} */
+/* DESTINATION STYLES */
+
+.destination-container{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+}
+
+.destination-images {
+  align-content: center;
+}
+.destination-images img{
+  width: 480px;
+  height: 265px;
+  margin-bottom: -8px;
+}
+
+.destination-images img{
+  max-width: 450px;
+  max-height: 265px;
+  margin-bottom: -8px;
+}
+
+.destination-images .row2 img{
+    max-width: 450px;
+    max-height: 265px;
+    margin-bottom: -8px;
+  }
+
+  .destination-images .row3 img{
+    max-width: 450px;
+    max-height: 265px;
+  }
+
+.row1, .row2, .row3{
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+
+.destination-name {
+    margin: 0 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    position: relative;
+    bottom: 137.5px;
+}
+
+
+
 }
