@@ -138,3 +138,77 @@ nav{
     font-size: 1rem;
     font-weight: 400;
 }
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+/* FOR MOBILE OR SMALL DEVICES */
+@media screen and (max-width: 600px) {
+
+    /* SHARED STYLES */
+    body{
+        margin-left: 15px;
+        margin-right: 20px;
+        margin-top: 19px;
+        /* max-width: 375px; */
+    }
+    .section-title{
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+  
+    .common-text{
+        margin-bottom: 16px;
+    }
+
+    /* NAV */
+    nav ul{
+    display: none;
+    }
+    nav .menu{
+        display: flex;
+        /* margin-top: 20px; */
+    }
+
+    /* BANNER */
+  .banner-container{
+    flex-direction: column;
+    padding: 32px 17px;
+    background-position: center center;
+    }
+
+    .banner-container .options-menu{
+        flex-direction: column;
+        text-align: center;
+        max-width: 255px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .banner-container h3{
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+
+    .banner-container p3{
+        font-size: 0.875rem;
+        margin-bottom: 32px;
+    }
+
+    .banner-container select{
+        margin-top: 0px;
+        max-width: 255px;
+        padding: 16px 120px 16px 16px;
+    }
+
+    .btn-primary{
+        max-width: 255px;
+    }
+
+}
