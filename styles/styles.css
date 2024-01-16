@@ -320,7 +320,7 @@ nav{
     
  }
 
- .why-us-container .card-title{
+ .card-title{
     color: #131318;
     font-size: 1.5rem;
     font-weight: 800;
@@ -387,9 +387,70 @@ nav{
 
 /* DEALS SECTIONS STYLES */
 
-.deals-container .deal-1{
+.deals-container .deal-1, .deal-3{
     background-image: url('../images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
 }
+
+.deals-container .deal-2{
+    background-image: url('../images/Group\ 40.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+}
+
+.deal-1, .deal-2{
+    margin-bottom: 24px;
+}
+
+.deals-section{
+    margin-bottom: 100px;
+}
+
+.deal-content{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    max-width: 380px;
+    max-height: 389px;
+    padding: 50px;
+    margin: 55px ;
+}
+
+.deal-info, .deal-time, .deal-people, .deal-location{
+    display: flex;
+}
+
+.deal-content .deal-info{
+    margin-bottom: 26px;
+}
+
+.deal-content .card-title{
+    margin-bottom: 16px;
+}
+
+.deal-content .price{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.deals-section .section-title, .common-text {
+    text-align: center;
+}
+
+.deals-section .common-text{
+    max-width: 643px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+
+}
+
 
 
 
