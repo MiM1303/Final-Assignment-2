@@ -42,6 +42,13 @@ body{
     line-height: 26px;
   }
 
+  .card-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 32px 0px 16px 0px;
+ }
+
 /* HEADER STYLES */
 /* NAV STYLES */
 nav{
@@ -192,7 +199,7 @@ nav{
 
     .destination-container{
         text-align: center; 
-        margin-bottom: 100px;    
+        margin-bottom: 60px;    
     }
 
     .row1 {
@@ -210,6 +217,12 @@ nav{
         display: flex;
         justify-content: space-between;
         margin-top: -16px;
+    }
+
+    .destination-images img{
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+
     }
 
       .row1 img{
@@ -257,7 +270,135 @@ nav{
     }
 
 
+
+/* WHY US SECTION STYLES*/
+
+  .why-us-container{
+    margin-bottom: 100px;
+}
+
+.why-us-container .section-title, .common-text {
+    text-align: center;
+}
+
+.why-us-container .common-text{
+    max-width: 643px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    justify-items: center;
+}
+
+.card{
+    border-radius: 16px;
+    padding: 32px;
+    margin: 0 auto;
+}
+
+.card-1{
     
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+ }
+
+ .card-2{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+ }
+
+ .card-3{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    grid-column: span 2 ;
+    max-width: 530px;
+    
+ }
+
+ .why-us-container .card-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+ }
+
+ .why-us-container .card-text{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+ }
+
+ /* REVIEW SECTION STYLES*/
+
+ .reviews-container {
+    text-align: center;
+    margin-bottom: 100px;
+ }
+
+ .reviews-container img{
+    max-width: 70px;
+    max-height: 70px;
+ }
+
+ .reviews-container .common-text{
+    max-width: 643px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.reviews-container .review-2:hover, .review-3:hover {
+    border: 2px solid rgba(64, 158, 47, 0.485);
+}
+
+.reviews-container .review-1:hover, .review-4:hover {
+    border: 2px solid rgba(239, 154, 56, 0.695);
+}
+
+ .review-1,  .review-4{
+    
+    border: 2px solid rgba(251, 180, 99, 0.297);
+    background: rgba(251, 181, 99, 0.05);
+ }
+
+ .review-2, .review-3{
+    
+    border: 2px solid rgba(122, 251, 99, 0.361);
+    background: rgba(159, 215, 106, 0.068);
+ }
+
+ .review-1,.review-3{
+    text-align: left;
+ }
+
+ .review-2,.review-4{
+    text-align: right;
+ }
+
+ .stars{
+    color: #FF5400;
+    margin-top: 16px;
+    font-size: 2rem;
+ }
+
+/* DEALS SECTIONS STYLES */
+
+.deals-container .deal-1{
+    background-image: url('../images/Group\ 39.png');
+}
+
+
+
+
+    
+
+
+
+
 
 
 
@@ -406,6 +547,24 @@ nav{
     bottom: 137.5px;
 }
 
+ /* WHY US SECTION STYLES */
+
+ .card-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+.why-us-container .common-text{
+    margin-bottom: 16px;
+}
+
+/* REVIEW SECTION STYLES */
+
+.reviews-container .card{
+    text-align: center;
+}
 
 
 }
