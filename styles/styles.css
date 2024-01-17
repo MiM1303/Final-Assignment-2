@@ -450,11 +450,11 @@ nav{
 .promotion-container{
     margin-bottom: 100px;
     display: flex;
-    gap: 28px;
+    gap: 34px;
    }
 
 .promotion-content{
-    max-width: 48%;
+    max-width: 50%;
 }
 
 .promotion-content p{
@@ -482,6 +482,7 @@ nav{
 .video-content video{
     border-radius: 16px;
     background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    margin-top: 8px;
 }
 
 
@@ -489,7 +490,7 @@ nav{
 
 .newsletter-container{
     display: flex;
-    gap: 48px;
+    gap: 56px;
     margin-bottom: 100px;
  }
 
@@ -499,15 +500,20 @@ nav{
     border-radius: 16px;
     border: 1px solid #FF5400;
     padding: 55px;
-    width: 35%;
+    width: 30%;
     /* max-width: 474px; */
-    max-height: 500px;
+    max-height: 850px;
  }
+
+ /* .newsletter-image{
+    width: 100%;
+ } */
 
  .newsletter-image img{
     position: absolute;
-    width: 100%;
-    max-width: 715px;
+    width: 48.5%;
+    height: 60%;
+    
    }
 
  .newsletter-content input{
@@ -517,28 +523,25 @@ nav{
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     padding: 16px 20px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     border: 0px;
  }
 
  .newsletter-content .card-title{
-    margin-bottom: 16px;
+    margin-bottom: 20px;
  }
  
- .newsletter-content .card-text{
-    margin-bottom: 24px;
- }
-
  .newsletter-content hr{
-    background: rgba(176, 176, 180, 0.971);
+    background-color: rgba(212, 212, 227, 0.971);
     /* background: rgba(213, 213, 214, 0.682); */
     width:100%;
     text-align:left;
-    margin-bottom: 24px;
+    margin-bottom: 28px;
+    margin-top: 28px;
  }
 
  .newsletter-content .btn-primary{
-    margin-top: 8px;
+    margin-top: 12px;
  }
    
    .newsletter-image .save {
@@ -549,8 +552,8 @@ nav{
     padding: 10px 9px;
     text-align: center;
     position: relative;
-    left: 440px;
-    top: 310px;
+    left: 565px;
+    top: 345px;
     transform: rotate(-19.628deg);
 }
 
