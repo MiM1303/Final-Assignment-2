@@ -171,9 +171,9 @@ nav{
         max-width: 540px;
     } */
 
-    /* .popular-image img{
+    .popular-image img{
         width: 100%;
-    } */
+    }
 
     .popular-container p{
         margin-top: 20px;
@@ -199,7 +199,7 @@ nav{
 
     .destination-container{
         text-align: center; 
-        margin-bottom: 100px;    
+        margin-bottom: 100px;   
     }
 
     .row1 {
@@ -221,6 +221,7 @@ nav{
     }
 
     .destination-images img{
+        width: 100%;
         border-radius: 16px;
         background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
     }
@@ -241,6 +242,7 @@ nav{
     }
 
     .destination-container .destination-text{
+        width: 70%;
         margin-bottom: 48px;
     }
 
@@ -735,31 +737,13 @@ nav{
   align-content: center;
 }
 .destination-images img{
-  width: 480px;
+  width: 90%;
   height: 265px;
-  margin-bottom: -8px;
 }
-
-.destination-images img{
-  max-width: 450px;
-  max-height: 265px;
-  margin-bottom: -8px;
-}
-
-.destination-images .row2 img{
-    max-width: 450px;
-    max-height: 265px;
-    margin-bottom: -8px;
-  }
-
-  .destination-images .row3 img{
-    max-width: 450px;
-    max-height: 265px;
-  }
 
 .row1, .row2, .row3{
     flex-direction: column;
-    margin-bottom: 14px;
+    gap: 0px;
 }
 
 .destination-name {
@@ -804,15 +788,21 @@ nav{
 
 .deals-section{
     padding: 16px;
+    margin-bottom: 24px;
 }
 
 .deals-container{
     flex-direction: column;
     justify-content: flex-end;
+    margin-bottom: 0px;
 }
 
 .deal-info{
     flex-wrap: wrap;
+}
+
+.deals-section .last{
+    display: none;
 }
 
 
@@ -820,7 +810,7 @@ nav{
 
 .promotion-container{
     flex-direction: column;
-    
+    margin-bottom: 24px;
 }
 
 .promotion-content{
@@ -836,6 +826,7 @@ nav{
 .newsletter-container{
     flex-direction: column;
     margin-bottom: 100px;
+    gap: 16px;
 }
 
 .newsletter-content{
@@ -844,7 +835,7 @@ nav{
 }
 
 .newsletter-image img{
-    max-width: 95%;
+    width: 95%;
     max-height: 380px;
     position: absolute;
     
@@ -852,8 +843,8 @@ nav{
 
 .newsletter-image .save{
     position: relative;
-    top: 180px;
-    left: 180px;
+    top: 230px;
+    left: 135px;
     margin-bottom: 180px;
 }
 
