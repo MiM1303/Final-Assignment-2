@@ -453,6 +453,7 @@ nav{
     margin-bottom: 100px;
     display: flex;
     gap: 34px;
+    align-items: center;
    }
 
 .promotion-content{
@@ -509,6 +510,10 @@ nav{
 
  /* .newsletter-image{
     width: 100%;
+ } */
+
+ /* .newsletter-image{
+    position: relative;
  } */
 
  .newsletter-image img{
@@ -848,16 +853,6 @@ nav{
     margin-bottom: 180px;
 }
 
-footer{
-    /* max-width: 375px; */
-    /* width: 100%; */
-    /* margin: 0px 0px; */
-    /* margin-left: -15px;
-    margin-right: -20px;
-    margin-bottom: -100px; */
-    /* padding: 32px 44px; */
-}
-
 footer >p{
     max-width: 470px;
 }
@@ -872,4 +867,95 @@ footer >p{
     margin-bottom: 20px;
 }
 
+}
+
+@media screen and (min-width:992px) and (max-width:1220px) {
+    header, section{
+        margin: 55px 100px;
+    }
+
+    /* HEADER STYLES */
+
+    /* NAV STYLES */
+    .title-container{
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+    nav h3{
+        font-size: 1.68rem;
+    }
+    nav ul{
+        gap:34px;
+    }
+
+    /* BANNER STYLES */
+    .banner-container{
+        padding: 106px 90px ;
+    }
+
+    .options-menu{
+        justify-content: space-between;
+        gap: 12px;
+        width: 1000px;
+        padding: 10px 14px;
+        margin-top: 48px;
+    }
+
+    .options-menu select{
+        padding: 5px 5px;
+    }
+
+    .banner-container .btn-primary{
+        font-size: 0.85rem;
+    }
+
+    /* POPULAR SECTION STYLES */
+
+    .popular-container{
+        gap: 24px;
+    }
+    .popular-image img
+    {width: 100%;}
+
+    /* DEALS SECTION STYLES */
+    .deals-section .last{
+        margin-left: 40%;
+    }
+
+    /* NEWSLETTER SECTION STYLES */
+    .newsletter-content{
+        padding: 36px;
+    }
+
+    .newsletter-content .card-title{
+        margin-top: 6px;
+    }
+
+    .newsletter-content hr{
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .newsletter-content input{
+        margin-bottom: 18px;
+    }
+
+    .newsletter-image img{
+        height: 55%;
+    }
+
+    .newsletter-image .save{
+        position: relative;
+        top: 290px;
+        left: 230px;
+    }
+
+    .newsletter-image .save .text1{
+        font-size: 1.3rem;
+    }
+
+    .newsletter-image .save .text2{
+        font-size: 1.8rem;
+    }
 }
